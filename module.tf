@@ -1,5 +1,5 @@
 module "labmodule" {
-  source              = "./labmodule/"
+  source              = "./module/"
   resource_group_name = local.resource_group_name
   location = local.location
   vnet_name = local.vnet_name
